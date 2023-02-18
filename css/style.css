@@ -1,12 +1,43 @@
-<style>
-  /* Títulos con Ubuntu Negritas */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-  }
+header {
+  text-align: center;
+}
 
-  /* Otros textos con Roboto */
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-</style>
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
